@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>products</h1>
+        <div id="product-list">
+            <!--products will be dynamically added here by javascript-->
+        </div>
+
+        <h2>shopping cart</h2>
+        <div id="cart-items">
+            <p id="empty-cart">your card is empty.</p>
+        </div>
+        <div id="cart-total" class="hidden">
+            <p>Total: <span id="total-price">$0.00</span></p>
+            <button id="checkout-btn">checkout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
