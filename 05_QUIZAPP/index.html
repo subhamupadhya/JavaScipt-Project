@@ -9,19 +9,25 @@
 <body>
     <div class="container">
         <h1>Quiz App</h1>
-        <div id="quiz-container">
-            <div id="question-container" class="hidden">
-                <h2 id=question-text></h2>
+        
+        <!-- Start Button (Now Visible Initially) -->
+        <button id="start-btn">Start Quiz</button>
+
+        <div id="quiz-container" class="hidden">
+            <div id="question-container">
+                <h2 id="question-text"></h2>
                 <ul id="choices-list">
-                    <!--choices will be added dynamically here -->
+                    <!-- Choices will be added dynamically here -->
                 </ul>
-                <button id="next-btn" class="hidden">Next Questions</button>
+                <button id="next-btn" class="hidden">Next Question</button>
             </div>
+
             <div id="result-container" class="hidden">
-                <button id="start -btn">Start Quiz</button>
-                
+                <p>Your Score: <span id="score">0</span></p>
+                <button id="restart-btn">Restart Quiz</button>
             </div>
         </div>
+
         <script src="script.js"></script>
     </div>
 </body>

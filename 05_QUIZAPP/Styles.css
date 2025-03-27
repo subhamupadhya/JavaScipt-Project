@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#start-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#next-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+#restart-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Question Container */
+#question-container {
+    margin-top: 20px;
+}
+
+#question-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Choices List */
+#choices-list {
+    list-style: none;
+    padding: 0;
+}
+
+#choices-list li {
+    background: #eee;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#choices-list li:hover {
+    background: #ddd;
+}
+
+/* Result Display */
+#result-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
